@@ -138,7 +138,7 @@ Run [`sql/99_uninstall.sql`](sql/99_uninstall.sql), then revoke the token in SKU
 
 `node --test tests/*.mjs` checks the webhook signature code (Node 22.18 or newer).
 
-Checked on 24 November 2026 with Supabase CLI 3.3.0, Postgres 17, Wrappers 0.6.3 and OpenAPI wrapper
+Checked on 23 November 2026 with Supabase CLI 3.3.0, Postgres 17, Wrappers 0.6.3 and OpenAPI wrapper
 0.2.1. The install file pins the wrapper's version and checksum.
 
 ## Help
