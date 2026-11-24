@@ -1,0 +1,4 @@
+# Add to your project's supabase/config.toml. SKU.io does not send a Supabase JWT; the
+# function checks the SKU.io signature instead.
+[functions.sku-webhook]
+verify_jwt = false
